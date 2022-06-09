@@ -7,4 +7,5 @@
 3. Create Git Repository
 4. Created feature products
 5. Create Routes and Components
-6. Node js Server
+6. Added Node js Server Backend
+7. Added Bootstrap Styles
