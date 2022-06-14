@@ -9,3 +9,4 @@
 5. Create Routes and Components
 6. Added Node js Server Backend
 7. Added Bootstrap Styles
+8. Made product Cards and Ratings

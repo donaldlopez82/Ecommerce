@@ -19,7 +19,7 @@ const Footer = () => {
   }, [fullYear]);
   return (
     <>
-      <Padding>
+      <div>
         <nav className=" navbar navbar-expand-md navbar-dark bg-dark fixed font-link">
           <BlackBar>
             <Container2>
@@ -28,7 +28,7 @@ const Footer = () => {
                   <Column>
                     <Heading>About Us</Heading>
                     <Link to="/Credits" type="submit">
-                      Authors
+                      Locations
                     </Link>
                     <Link to="/CommentSection" type="submit">
                       Press
@@ -42,7 +42,7 @@ const Footer = () => {
                   <Column>
                     <Heading>Services</Heading>
                     <Link to="/Support" type="submit">
-                      Game Help
+                      Help
                     </Link>
                     <Link to="/Support" type="submit">
                       Contact
@@ -103,18 +103,17 @@ const Footer = () => {
               </button> */}
 
               <Container>
-                <br></br>
-                <div>
-                  <h5>
-                    <br></br> {fullYear}-{fullYear + 1}, All Rights Reserved by
-                    Zombie Apocalypse
-                  </h5>
+                <div className=''>
+                 
+                  <Heading><br></br> {fullYear}-{fullYear + 1}, All Rights Reserved by
+                    ComicBuy
+                  </Heading>
                 </div>
               </Container>
             </Container2>
           </BlackBar>
         </nav>
-      </Padding>
+      </div>
     </>
   );
 };

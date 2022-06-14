@@ -95,7 +95,7 @@ export const Heading = styled.p`
   font-weight: bold;
 `;
 
-export const BlackBar = styled.p`
+export const BlackBar = styled.div`
   position: auto;
   width: 100%;
   text-align: center;
