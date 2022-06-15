@@ -15,15 +15,32 @@ main {
 }
 .btn-primary {
   background-color: #404040;
-  color:aliceblue;
-
+  color: aliceblue;
+  
+}
+.btn-primary:hover {
+  background-color:  #ffc000;
+  color: #ffffff;
+}
+.link-color {
+  color:#404040;
+  text-decoration: inherit;
+}
+.link-color:hover {
+  color:  #ffc000;
+}
+.link-color-two {
+  color: #ffffff;
+  text-decoration: inherit;
+}
+.link-color-two:hover {
+  color:#ffc000;
 }
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .rating span {
   color: #ffc000;
 }

@@ -10,11 +10,11 @@ function Product(props) {
       </Link>
       <Card.Body>
         <Link to={`/product/${product.slug}`}>
-          <Card.Title>{product.name}</Card.Title>
+          <Card.Title className='link-color'>{product.name}</Card.Title>
         </Link>
         <Rating rating={product.rating} numReviews={product.numReviews} />
         <Card.Title>${product.price}</Card.Title>
-        <Button>Add to cart</Button>
+        <Button className='btn-warning'>Add to cart</Button>
       </Card.Body>
     </Card>
   );

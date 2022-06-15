@@ -20,20 +20,34 @@ const Footer = () => {
   return (
     <>
       <div>
+        <br></br>
         <nav className=" navbar navbar-expand-md navbar-dark bg-dark fixed font-link">
           <BlackBar>
+            <br></br>
             <Container2>
               <Row>
                 <div className="" id="">
                   <Column>
                     <Heading>About Us</Heading>
-                    <Link to="/Credits" type="submit">
+                    <Link
+                      className="link-color-two"
+                      to="/Credits"
+                      type="submit"
+                    >
                       Locations
                     </Link>
-                    <Link to="/CommentSection" type="submit">
-                      Press
+                    <Link
+                      className="link-color-two"
+                      to="/CommentSection"
+                      type="submit"
+                    >
+                      Contact
                     </Link>
-                    <Link to="/Credits" type="submit">
+                    <Link
+                      className="link-color-two"
+                      to="/Credits"
+                      type="submit"
+                    >
                       About Us
                     </Link>
                   </Column>
@@ -41,13 +55,25 @@ const Footer = () => {
                 <div className=" " id="">
                   <Column>
                     <Heading>Services</Heading>
-                    <Link to="/Support" type="submit">
+                    <Link
+                      className="link-color-two"
+                      to="/Support"
+                      type="submit"
+                    >
                       Help
                     </Link>
-                    <Link to="/Support" type="submit">
-                      Contact
+                    <Link
+                      className="link-color-two"
+                      to="/Support"
+                      type="submit"
+                    >
+                      Cart
                     </Link>
-                    <Link to="/Register" type="submit">
+                    <Link
+                      className="link-color-two"
+                      to="/Register"
+                      type="submit"
+                    >
                       Register
                     </Link>
                   </Column>
@@ -55,20 +81,27 @@ const Footer = () => {
                 <div className="" id="">
                   <Column>
                     <Heading>Community</Heading>
-                    <Link to="/Community" type="submit">
+                    <Link
+                      className="link-color-two"
+                      to="/Community"
+                      type="submit"
+                    >
                       Community
                     </Link>
-                    <Link to="/Store" type="submit">
-                      Store
+                    <Link className="link-color-two" to="/Store" type="submit">
+                      Press
                     </Link>
-                    <Link to="/PopUpForm" type="submit">
+                    <Link
+                      className="link-color-two"
+                      to="/PopUpForm"
+                      type="submit"
+                    >
                       Careers
                     </Link>
                   </Column>
                 </div>
                 <div className=" " id="">
                   <Column>
-                    <br></br>
                     <Heading>Social Media</Heading>
                     <FooterLink href="https://www.facebook.com/profile.php?id=100081142293284">
                       <i className="fab fa-facebook-f">
@@ -103,9 +136,9 @@ const Footer = () => {
               </button> */}
 
               <Container>
-                <div className=''>
-                 
-                  <Heading><br></br> {fullYear}-{fullYear + 1}, All Rights Reserved by
+                <div className="">
+                  <Heading>
+                    <br></br> {fullYear}-{fullYear + 1}, All Rights Reserved by
                     ComicBuy
                   </Heading>
                 </div>
