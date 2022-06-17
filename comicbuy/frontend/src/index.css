@@ -16,25 +16,24 @@ main {
 .btn-primary {
   background-color: #404040;
   color: aliceblue;
-  
 }
 .btn-primary:hover {
-  background-color:  #ffc000;
+  background-color: #ffc000;
   color: #ffffff;
 }
 .link-color {
-  color:#404040;
+  color: #404040;
   text-decoration: inherit;
 }
 .link-color:hover {
-  color:  #ffc000;
+  color: #ffc000;
 }
 .link-color-two {
   color: #ffffff;
   text-decoration: inherit;
 }
 .link-color-two:hover {
-  color:#ffc000;
+  color: #ffc000;
 }
 .products {
   display: flex;
@@ -55,4 +54,7 @@ main {
 }
 .product-info {
   padding: 1rem;
+}
+.img-large {
+  max-width: 100%;
 }

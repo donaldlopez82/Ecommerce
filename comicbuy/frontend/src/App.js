@@ -2,9 +2,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
-import { Navbar, Container } from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+import { Container } from 'react-bootstrap';
+// import { LinkContainer } from 'react-router-bootstrap';
 import Footer from './components/Footer';
+import Navibar from './components/Navibar';
 function App() {
   const [fullYear, setFullYear] = useState();
 
@@ -14,22 +15,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
-        <header>
-          <Navbar bg="dark" variant="dark">
-            <Container>
-              <LinkContainer to="/">
-                <Navbar.Brand><img className=''
-          src="./images/cblogo.png"
-          width="70px"
-          height="60px"
-          alt="brand"
-        /></Navbar.Brand>
-              </LinkContainer>
-            </Container>
-          </Navbar>
-        </header>
+       <Navibar/>
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />

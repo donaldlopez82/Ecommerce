@@ -18,7 +18,7 @@ const data = {
       category: 'comics',
       image: '/images/spiderman.jpg',
       price: 12,
-      countInStock: 10,
+      countInStock: 0,
       company: 'Marvel',
       rating: 4.7,
       numReviews: 150,
