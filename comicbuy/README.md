@@ -11,3 +11,5 @@
 7. Added Bootstrap Styles
 8. Made product Cards and Ratings
 9. Added product details page
+10. Create spinner for loading and error notifications
+11. Created React Context and Store provider for a working cart

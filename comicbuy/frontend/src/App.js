@@ -5,7 +5,7 @@ import ProductScreen from './screens/ProductScreen';
 import { Container } from 'react-bootstrap';
 // import { LinkContainer } from 'react-router-bootstrap';
 import Footer from './components/Footer';
-import Navibar from './components/Navibar';
+import NavigationBar from './components/NavigationBar';
 function App() {
   const [fullYear, setFullYear] = useState();
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
-       <Navibar/>
+       <NavigationBar/>
         <main>
           <Container className="mt-3">
             <Routes>
