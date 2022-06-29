@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 // import { LinkContainer } from 'react-router-bootstrap';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
+import CartScreen from './screens/CartScreen';
 function App() {
   const [fullYear, setFullYear] = useState();
 
@@ -20,6 +21,7 @@ function App() {
           <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
+              <Route path="/cart" element={<CartScreen />} />
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>

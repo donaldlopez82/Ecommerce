@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Batman Comic',
       slug: 'batman-comic',
       category: 'comics',
@@ -13,6 +14,7 @@ const data = {
       description: 'Batman vs Joker',
     },
     {
+      _id: '2',
       name: 'Spider-Man Comic',
       slug: 'spider-man-comic',
       category: 'comics',
@@ -25,6 +27,7 @@ const data = {
       description: 'Spider-Man Spiders',
     },
     {
+      _id: '3',
       name: 'Avengers Comic',
       slug: 'avengers-comic',
       category: 'comics',
@@ -37,6 +40,7 @@ const data = {
       description: 'Avengers Origin',
     },
     {
+      _id: '4',
       name: 'Justice League Comic',
       slug: 'justice-league-comic',
       category: 'comics',

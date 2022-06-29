@@ -13,3 +13,4 @@
 9. Added product details page
 10. Create spinner for loading and error notifications
 11. Created React Context and Store provider for a working cart
+12. Made Cart buttons add or remove on all pages and store in local storage
