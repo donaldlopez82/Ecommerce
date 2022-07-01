@@ -7,6 +7,7 @@ import { Container } from 'react-bootstrap';
 import Footer from './components/Footer';
 import NavigationBar from './components/NavigationBar';
 import CartScreen from './screens/CartScreen';
+import SigninScreen from './screens/SigninScreen';
 function App() {
   const [fullYear, setFullYear] = useState();
 
@@ -22,6 +23,7 @@ function App() {
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
+              <Route path="/signin" element={<SigninScreen />} />
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>
