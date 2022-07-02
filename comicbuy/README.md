@@ -15,3 +15,4 @@
 11. Created React Context and Store provider for a working cart
 12. Made Cart buttons add or remove on all pages and store in local storage
 13. Connect to MongoDB by adding a .env file
+14. Created schema and added products to DB

@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'Donald',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'Max',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Batman Comic',
       slug: 'batman-comic',
       category: 'comics',
@@ -11,10 +27,10 @@ const data = {
       company: 'DC',
       rating: 4.5,
       numReviews: 110,
-      description: 'Batman vs Joker',
+      discription: 'Batman vs Joker',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Spider-Man Comic',
       slug: 'spider-man-comic',
       category: 'comics',
@@ -24,10 +40,10 @@ const data = {
       company: 'Marvel',
       rating: 4.7,
       numReviews: 150,
-      description: 'Spider-Man Spiders',
+      discription: 'Spider-Man Spiders',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Avengers Comic',
       slug: 'avengers-comic',
       category: 'comics',
@@ -37,10 +53,10 @@ const data = {
       company: 'Marvel',
       rating: 4.0,
       numReviews: 99,
-      description: 'Avengers Origin',
+      discription: 'Avengers Origin',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Justice League Comic',
       slug: 'justice-league-comic',
       category: 'comics',
@@ -50,7 +66,7 @@ const data = {
       company: 'DC',
       rating: 3.5,
       numReviews: 111,
-      description: 'Justice League Origin',
+      discription: 'Justice League Origin',
     },
   ],
 };
