@@ -17,4 +17,4 @@
 13. Connect to MongoDB by adding a .env file
 14. Created schema and added products and Users to DB
 15. Installed JWT and bcryptjs to add tokens verification
-16.Install Toastify for errors css and applied signin and signout with redirects
+16. Install Toastify for errors css and applied signin and signout with redirects
