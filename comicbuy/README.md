@@ -18,3 +18,4 @@
 14. Created schema and added products and Users to DB
 15. Installed JWT and bcryptjs to add tokens verification
 16. Install Toastify for errors css and applied signin and signout with redirects
+17. Created shipping screen with local storage save and component for steps of purchase
