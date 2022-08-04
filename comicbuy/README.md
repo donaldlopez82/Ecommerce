@@ -19,3 +19,4 @@
 15. Installed JWT and bcryptjs to add tokens verification
 16. Install Toastify for errors css and applied signin and signout with redirects
 17. Created shipping screen with local storage save and component for steps of purchase
+18. Created Signup screen and payment options screen
