@@ -20,3 +20,5 @@
 16. Install Toastify for errors css and applied signin and signout with redirects
 17. Created shipping screen with local storage save and component for steps of purchase
 18. Created Signup screen and payment options screen
+19. Created Order screen routes and models for placing an order
+20. Added Paypal for react and tested paypal with sandbox
