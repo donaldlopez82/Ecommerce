@@ -22,3 +22,4 @@
 18. Created Signup screen and payment options screen
 19. Created Order screen routes and models for placing an order
 20. Added Paypal for react and tested paypal with sandbox
+21. Added Profile screen and ability to update password
