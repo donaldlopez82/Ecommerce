@@ -1,10 +1,10 @@
 {
   "name": "comicbuy",
   "version": "1.0.0",
-  "description": "1. Install Tools\r 2. Create React App\r 3. Create Git Repository\r 4. Created feature products\r 5. Create Routes and Components\r 6. Added Node js Server Backend\r 7. Added Bootstrap Styles\r 8. Made product Cards and Ratings\r 9. Added product details page\r 10. Create spinner for loading and error notifications\r 11. Created React Context and Store provider for a working cart\r 12. Made Cart buttons add or remove on all pages and store in local storage\r 13. Connect to MongoDB by adding a .env file\r 14. Created schema and added products and Users to DB\r 15. Installed JWT and bcryptjs to add tokens verification\r 16. Install Toastify for errors css and applied signin and signout with redirects\r 17. Created shipping screen with local storage save and component for steps of purchase\r 18. Created Signup screen and payment options screen\r 19. Created Order screen routes and models for placing an order\r 20. Added Paypal for react and tested paypal with sandbox\r 21. Added Profile screen and ability to update password",
+  "description": "Eccomerce Site",
   "main": "index.js",
   "scripts": {
-    "build": "cd backend && npm  install && cd ../frontend && npm install && npm run build",
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
