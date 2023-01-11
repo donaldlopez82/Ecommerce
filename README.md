@@ -24,3 +24,4 @@
 20. Added Paypal for react and tested paypal with sandbox
 21. Added Profile screen and ability to update password
 22. Published to Heroku and created a DB
+23. Added sidebar and search bar.

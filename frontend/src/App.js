@@ -15,7 +15,6 @@ import OrderScreen from './screens/OrderScreen';
 import OrderHistoryScreen from './screens/OrderHistoryScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
-
 function App() {
   const [fullYear, setFullYear] = useState();
 
@@ -24,8 +23,9 @@ function App() {
   }, [fullYear]);
   return (
     <BrowserRouter>
-      <div className="d-flex flex-column site-container">
+      <div className="">
         <NavigationBar />
+  
         <main>
           <Container className="mt-3">
             <Routes>
