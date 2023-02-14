@@ -48,6 +48,18 @@ const data = {
       numReviews: 111,
       description: 'Justice League Origin',
     },
+    {
+      name: 'Justice League Shirt',
+      slug: 'justice-league-shirt',
+      category: 'shirts',
+      image: '/images/justiceleague.jpg', //679px x 829px
+      price: 15,
+      countInStock: 20,
+      company: 'DC',
+      rating: 4.0,
+      numReviews: 191,
+      description: 'Justice League shirt',
+    },
   ],
 };
 export default data;

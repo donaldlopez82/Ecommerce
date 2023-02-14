@@ -25,3 +25,4 @@
 21. Added Profile screen and ability to update password
 22. Published to Heroku and created a DB
 23. Added sidebar and search bar.
+24. Created Admin Page and charts.
