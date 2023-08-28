@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
-    "start": "serve -s build",
+    "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "14.17.5"
+    "node": "14.17.5",
+    "npm": "6.14.8"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "serve": "^14.2.1"
-  }
+  "license": "ISC"
 }
