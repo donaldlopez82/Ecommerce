@@ -1,3 +1,7 @@
+This project is an e-commerce web application designed for fans of comics, graphic novels, and pop-culture collectibles. The platform allows users to browse a catalog of comic books and collectible items, view product details, and add items to a shopping cart for purchase.
+
+The goal of this project is to demonstrate full-stack web development concepts such as dynamic product listings, user interaction, and responsive design while creating a shopping experience tailored for collectors and comic enthusiasts.
+
 # MERN ECOMMERCE
 
 # Steps
