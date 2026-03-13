@@ -1,8 +1,12 @@
 # MERN ECOMMERCE
 
-This project is an e-commerce web application designed for fans of comics, graphic novels, and pop-culture collectibles. The platform allows users to browse a catalog of comic books and collectible items, view product details, and add items to a shopping cart for purchase.
+Comic & Collectibles E-Commerce Website
 
-The goal of this project is to demonstrate full-stack web development concepts such as dynamic product listings, user interaction, and responsive design while creating a shopping experience tailored for collectors and comic enthusiasts.
+This project is an e-commerce web application designed for fans of comics, graphic novels, and collectibles. The applcation allows users to browse a catalog of comic books and collectible items, view product details, and add items to a shopping cart for purchase.
+
+The application was built using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js. These technologies work together to create a full-stack web application with a responsive front-end, a scalable back-end, and a database for storing product and user information.
+
+The goal of this project is to demonstrate full-stack web development concepts such as dynamic product listings, API integration, database management, and responsive design while creating an engaging shopping experience for collectors and comic enthusiasts.
 
 # Steps
 
